@@ -2,9 +2,8 @@
 
 Welcome to HR Book Store, a MERN stack project designed to provide a seamless book store experience. This app/website allows users to explore a wide range of books, read reviews, and contribute their own feedback to help fellow readers make informed choices. We are continuously working to enhance this platform by adding new functionalities to improve the overall book store experience.
 
-## Live Link
-
-Access the live version of HR Book Store at [hr-book-store.vercel.app](https://hr-book-store.vercel.app/).
+## Image
+![alt text](image.png)
 
 ## Features
 
