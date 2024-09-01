@@ -1,0 +1,47 @@
+.adminNavbar {
+    width: 200px;
+    background-color: #cdd8d8;
+    color: #fff;
+    padding: 0px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .adminNavToggler {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  .adminNavbarLink {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .adminNavbarLink:hover {
+    background-color: #444;
+  }
+  
+  .active {
+    background-color: #555;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 40px;
+    
+  }

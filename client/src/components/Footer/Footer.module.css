@@ -1,0 +1,121 @@
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .brandSection {
+    flex: 1;
+    min-width: 200px;
+    text-align: left;
+  }
+  
+  .brandName {
+    font-size: 24px;
+    color: #f39c12;
+    margin-bottom: 10px;
+  }
+  
+  .brandTagline {
+    font-size: 14px;
+    color: #bdc3c7;
+    margin-bottom: 20px;
+  }
+  
+  .linksSection, .contactSection, .socialSection {
+    flex: 1;
+    min-width: 150px;
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  .sectionTitle {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #f39c12;
+  }
+  
+  .linkList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .linkList li {
+    margin-bottom: 10px;
+  }
+  
+  .linkList a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .linkList a:hover {
+    color: #f39c12;
+  }
+  
+  .contactSection p {
+    color: #bdc3c7;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .ctaButton {
+    display: inline-block;
+    background-color: #f39c12;
+    color: #1a1a1a;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .ctaButton:hover {
+    background-color: #ffffff;
+    color: #f39c12;
+  }
+  
+  .socialSection .socialIcons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .socialIcons a {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .socialIcons a:hover {
+    color: #f39c12;
+  }
+  
+  .footerBottom {
+    border-top: 1px solid #444;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #bdc3c7;
+  }
+  
+  .footerBottom a {
+    color: #f39c12;
+    text-decoration: none;
+  }
+  
+  .footerBottom a:hover {
+    text-decoration: underline;
+  }
+  

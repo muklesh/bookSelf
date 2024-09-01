@@ -1,0 +1,74 @@
+.container {
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.bookDetail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Column: Book Image and Details */
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.bookImageContainer {
+  margin-bottom: 20px;
+  width: 500px;
+  height: 300px;
+}
+
+.bookData {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.bookTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bookAuthor, .bookCategory, .bookLanguage, .bookPublication {
+  margin-bottom: 8px;
+}
+
+.favouriteButton {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.favouriteButton:hover {
+  background-color: #0056b3;
+}
+
+/* Right Column: Review Details */
+.rightColumn {
+  flex: 1;
+  margin-left: 20px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bookReviews h2 {
+  margin-bottom: 10px;
+}
